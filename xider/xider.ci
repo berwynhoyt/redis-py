@@ -1,0 +1,5 @@
+init: void init^xider()
+terminate: void terminate^xider()
+// Unfortunately, YDBPython 1.1.0 only supports return of string* (=ydb_string_t*), not long*.
+// This works, but adds overhead of a 1MB malloc and conversion from number to string and back:
+call: string* call^xider(I:string*)
