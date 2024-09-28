@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Xider driver for Python
+# This file is copyright 2024, licensed under the GNU Affero General Public License Version 3: https://www.gnu.org/licenses/agpl.txt
+
 """ Implement a Xider driver for Python based on subclassing Redis-py for compatibility with existing Redis-py clients. """
 
 import os

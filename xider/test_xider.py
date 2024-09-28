@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Tests for the Xider driver for Python
+# This file is copyright 2024, licensed under the GNU Affero General Public License Version 3: https://www.gnu.org/licenses/agpl.txt
 
 """ Test xider-py functionality.
 Test script may be invoked directly or using pytest """

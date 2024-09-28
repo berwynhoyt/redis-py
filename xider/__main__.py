@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
+# Xider driver for Python
+# This file is copyright 2024, licensed under the GNU Affero General Public License Version 3: https://www.gnu.org/licenses/agpl.txt
 
-""" Makes the xider module runs as a xider-cli (akin to redis-cli), e.g.:
+""" Makes the xider module run as a xider-cli (akin to redis-cli), e.g.:
         python -m xider SET x 3 ...
 """
 

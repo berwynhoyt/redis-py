@@ -1,3 +1,6 @@
+// Call-in routine prototype table for the Python Xider driver
+// This file is copyright 2024, licensed under the GNU Affero General Public License Version 3: https://www.gnu.org/licenses/agpl.txt
+
 init: void init^xider()
 terminate: void terminate^xider()
 // Unfortunately, YDBPython 1.1.0 only supports return of string* (=ydb_string_t*), not long*.
